@@ -1,0 +1,20 @@
+{
+  "name": "express-mongo",
+  "version": "1.0.0",
+  "description": "learning express frame and mongo db",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "priya.0226",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "git": "^0.1.5",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.1",
+    "nodemon": "^3.1.4",
+    "uuid": "^10.0.0"
+  }
+}
