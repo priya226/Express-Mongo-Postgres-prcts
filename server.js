@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
-const dbURL =
-  "mongodb+srv://pr35:<password_here>@cluster0.uvp3laq.mongodb.net/";
+require('dotenv').config()
+const dbURL = process.env.DATABASE_URL
+  
 const port = 4000;
 const express = require("express");
 const app = express();
