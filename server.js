@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 require('dotenv').config()
-const dbURL = process.env.DATABASE_URL
+const dbURL = process.env.DATABASEMONGODB_URL
   
 const port = 4000;
 const express = require("express");

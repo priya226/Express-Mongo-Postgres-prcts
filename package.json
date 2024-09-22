@@ -4,7 +4,8 @@
   "description": "learning express frame and mongo db",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "author": "priya.0226",
   "license": "ISC",
@@ -15,8 +16,10 @@
     "git": "^0.1.5",
     "mongodb": "^6.8.0",
     "mongoose": "^8.5.1",
-    "nodemon": "^3.1.4",
     "pg": "^8.13.0",
     "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
   }
 }
